@@ -1,0 +1,133 @@
+Form Button {
+  width: 100%;
+}
+
+h2 {
+  color: #313131;
+}
+
+h6 {
+  color: black;
+}
+
+hr.line {
+  border: 1px solid #313131;
+  width: 175px;
+}
+.user-divider {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 4px 0;
+}
+
+.app {
+  margin: auto;
+  padding-top: 40px;
+  width: 950px;
+  text-align: center;
+}
+
+.lobby {
+  width: 400px;
+  margin: auto;
+}
+
+.chat {
+  display: grid;
+}
+
+.leave-room {
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.user-item h6 {
+  margin: 0;
+}
+
+.user-list button {
+  width: 100%;
+  margin-top: auto;
+}
+.user-list {
+  float: left;
+  background-color: #d3d3d3;
+  color: black;
+  margin-left: -150px;
+  width: 400px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+  height: 720px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.message-container {
+  height: 680px;
+  width: 1000px;
+  background-image: url("../public/image.jpg"); /* Reference the image in the public folder */
+  background-size: cover; /* Adjust the sizing of the background image */
+  overflow: auto;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+.user-message {
+  text-align: right;
+  padding: 10px;
+  font-size: 16px;
+}
+.other-user-message {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+.message {
+  background-color: pink;
+  display: inline-flex;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 3px;
+}
+
+.from-user {
+    color: black;
+    font-size: large;
+    font-weight: 900; /* Set to the boldest value */
+    margin-bottom: 3px;
+    margin-right: 5px;
+  }
+  
+  
+
+#root {
+    margin-top: -5px;
+    background-color: #00a884;
+    height: 762px;
+  }
